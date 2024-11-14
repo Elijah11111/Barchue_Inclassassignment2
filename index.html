@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive ABCs of CSS Technology</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Interactive ABCs of CSS Technology Learning Website</h1>
+        <p>Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters.</p>
+    </header>
+
+    <div class="buttons">
+        <button id="btnA">A</button>
+        <button id="btnB">B</button>
+        <button id="btnC">C</button>
+    </div>
+
+    <div class="results" id="resultsA">
+        <h2>CSS Feature A</h2>
+        <img src="./Images/css-letter-a.png"
+        width="300px" height="200px">
+        <button class="hide-btn" data-target="resultsA">Hide Result</button>
+    </div>
+
+    <div class="results" id="resultsB">
+        <h2>CSS Feature B</h2>
+        <img src="./Images/css-letter-b.png"
+        width="300px" height="200px">
+        <button class="hide-btn" data-target="resultsB">Hide Result</button>
+    </div>
+
+    <div class="results" id="resultsC">
+        <h2>CSS Feature C</h2>
+        <img src="./Images/css-letter-c.png"
+        width="300px" height="px">
+        <button class="hide-btn" data-target="resultsC">Hide Result</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
